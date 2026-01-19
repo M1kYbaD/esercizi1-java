@@ -30,65 +30,65 @@ public class Main {
 		String[] arrSt2 = { "Rosso", "Verde", "Blu", "Giallo", "Viola", "Blu" };
 		String[] arrSt3 = { "Sedia", "Tavolo", "Penna", "Telefono", "Lampada", "Libro", "Occhiali", "Chiavi" };
 
-		// ArrayMethods.stampIntArr(arr1);
-		// ArrayMethods.stampIntArr(arr2);
-		// ArrayMethods.stampIntArr(arr3);
-		// System.out.println(); // Separatore output
-		// ArrayMethods.stampStrArr(arrSt1);
-		// ArrayMethods.stampStrArr(arrSt2);
-		// ArrayMethods.stampStrArr(arrSt3);
-		// System.out.println();
+		ArrayMethods.stampIntArr(arr1);
+		ArrayMethods.stampIntArr(arr2);
+		ArrayMethods.stampIntArr(arr3);
+		System.out.println(); // Separatore output
+		ArrayMethods.stampStrArr(arrSt1);
+		ArrayMethods.stampStrArr(arrSt2);
+		ArrayMethods.stampStrArr(arrSt3);
+		System.out.println();
 		//
-		// ArrayMethods.sumIntArray(arr1); // Es 1
-		// ArrayMethods.maxIntArray(arr1); // Es2
-		// ArrayMethods.minIntArray(arr1); // Es 3
-		// ArrayMethods.medIntArray(arr1); // Es 4.1
-		// System.out.println();
+		ArrayMethods.sumIntArray(arr1); // Es 1
+		ArrayMethods.maxIntArray(arr1); // Es2
+		ArrayMethods.minIntArray(arr1); // Es 3
+		ArrayMethods.medIntArray(arr1); // Es 4.1
+		System.out.println();
 		//
-		// ArrayMethods.sumIntArray(arr2);
-		// ArrayMethods.maxIntArray(arr2);
-		// ArrayMethods.minIntArray(arr2);
-		// ArrayMethods.medIntArray(arr2);
-		// System.out.println();
+		ArrayMethods.sumIntArray(arr2);
+		ArrayMethods.maxIntArray(arr2);
+		ArrayMethods.minIntArray(arr2);
+		ArrayMethods.medIntArray(arr2);
+		System.out.println();
 		//
-		// ArrayMethods.sumIntArray(arr3);
-		// ArrayMethods.maxIntArray(arr3);
-		// ArrayMethods.minIntArray(arr3);
-		// ArrayMethods.medIntArray(arr3);
-		// System.out.println();
+		ArrayMethods.sumIntArray(arr3);
+		ArrayMethods.maxIntArray(arr3);
+		ArrayMethods.minIntArray(arr3);
+		ArrayMethods.medIntArray(arr3);
+		System.out.println();
 		//
-		// ArrayMethods.stampFltArr(arrFl1);
-		// ArrayMethods.stampFltArr(arrFl2);
-		// ArrayMethods.stampFltArr(arrFl3);
-		// System.out.println();
+		ArrayMethods.stampFltArr(arrFl1);
+		ArrayMethods.stampFltArr(arrFl2);
+		ArrayMethods.stampFltArr(arrFl3);
+		System.out.println();
 		//
-		// ArrayMethods.medFloatArray(arrFl1); // Es 4
-		// ArrayMethods.medFloatArray(arrFl2);
-		// ArrayMethods.medFloatArray(arrFl3);
-		// System.out.println();
+		ArrayMethods.medFloatArray(arrFl1); // Es 4
+		ArrayMethods.medFloatArray(arrFl2);
+		ArrayMethods.medFloatArray(arrFl3);
+		System.out.println();
 		//
-		// ArrayMethods.copyElementInNewArray(arr1); // Es 6
-		// ArrayMethods.copyElementInNewArray(arr2);
+		ArrayMethods.copyElementInNewArray(arr1); // Es 6
+		ArrayMethods.copyElementInNewArray(arr2);
 		//
-		// ArrayMethods.verificaElementoArray(arr1, 41); // Es 7
-		// ArrayMethods.verificaElementoArray(arr2, 77);
-		// ArrayMethods.verificaElementoArray(arr1, 2); // Es 7
-		// ArrayMethods.verificaElementoArray(arr2, 300);
+		ArrayMethods.verificaElementoArray(arr1, 41); // Es 7
+		ArrayMethods.verificaElementoArray(arr2, 77);
+		ArrayMethods.verificaElementoArray(arr1, 2); // Es 7
+		ArrayMethods.verificaElementoArray(arr2, 300);
 		//
-		// System.out.println();
+		System.out.println();
 		//
-		// ArrayMethods.invertElementsArray(arr1); // Es 8
-		// ArrayMethods.invertElementsArray(arr2);
+		ArrayMethods.invertElementsArray(arr1); // Es 8
+		ArrayMethods.invertElementsArray(arr2);
 		//
-		// ArrayMethods.sommaDuePerVolta(arr2, arr4); // Es 9
-		// ArrayMethods.sommaDuePerVolta(arr3, arr4);
-		// System.out.println();
+		ArrayMethods.sommaDuePerVolta(arr2, arr4); // Es 9
+		ArrayMethods.sommaDuePerVolta(arr3, arr4);
+		System.out.println();
 		//
-		// ArrayMethods.trovaPosElement(arr1, 16); // Es 10
-		// ArrayMethods.trovaPosElement(arr1, 60);
-		// ArrayMethods.trovaPosElement(arr2, 94);
-		// ArrayMethods.trovaPosElement(arr2, 200);
-		// System.out.println();
+		ArrayMethods.trovaPosElement(arr1, 16); // Es 10
+		ArrayMethods.trovaPosElement(arr1, 60);
+		ArrayMethods.trovaPosElement(arr2, 94);
+		ArrayMethods.trovaPosElement(arr2, 200);
+		System.out.println();
 
 		// Matrici di 'int'
 		int[][] matrice = { {}, {}, {}, {}, {} }; // Inizializzata ma vuota
@@ -182,50 +182,50 @@ public class Main {
 		matrAnag[1][2] = new Anagrafica("Anna", "Costa", 'F', LocalDate.of(1979, 11, 3), "Bologna", "CSAL5N044J");
 
 		// Stampa matrice
-		// Anagrafica.stampMatrStr(matrAnag);
+		Anagrafica.stampMatrStr(matrAnag);
 
 		MatrixMethods objmat = new MatrixMethods();
-		// objmat.stampMatrInt(matrice1);
-		// objmat.stampMatrInt(matrice2);
-		// objmat.stampMatrInt(matrice3);
-		// objmat.stampMatrInt(matrice4);
-		// objmat.stampMatrScacchiera(matriceScacchiera);
-		// objmat.stampMatrScacchieraInvertita(matriceScacchieraInvertita);
-		// objmat.stampMatrInt(matriceDiagonaliUguali);
-		// objmat.stampMatrInt(matrice5X5);
-		// objmat.stampMatrInt(matrice6X6);
-		// objmat.stampMatrInt(matriceBordi1);
-		// objmat.stampMatrInt(matriceA);
-		// objmat.stampMatrInt(matriceB);
-		// objmat.stampMatrInt(matriceA2);
-		// objmat.stampMatrInt(matriceB2);
-		// objmat.stampMatrInt(matrice7X7ConZero);
-		// objmat.stampMatrInt(matrice8X8);
-		// objmat.stampMatrInt(matrice1A4X4);
-		// objmat.stampMatrInt(matrice2A4X4);
-		// objmat.stampMatrInt(matriceBinaria);
-		// objmat.stampMatrInt(matricePerRiga);
-		// objmat.stampMatrInt(matriceIdentita);
-		// objmat.stampMatrInt(matrice7);
-		// objmat.stampMatrInt(matriceProdInd);
-		// objmat.stampMatrInt(matriceUniPariPerRiga);
-		// objmat.stampMatrStr(matrStr);
-		// objmat.stampMatrStr(matrStr2);
+		objmat.stampMatrInt(matrice1);
+		objmat.stampMatrInt(matrice2);
+		objmat.stampMatrInt(matrice3);
+		objmat.stampMatrInt(matrice4);
+		objmat.stampMatrScacchiera(matriceScacchiera);
+		objmat.stampMatrScacchieraInvertita(matriceScacchieraInvertita);
+		objmat.stampMatrInt(matriceDiagonaliUguali);
+		objmat.stampMatrInt(matrice5X5);
+		objmat.stampMatrInt(matrice6X6);
+		objmat.stampMatrInt(matriceBordi1);
+		objmat.stampMatrInt(matriceA);
+		objmat.stampMatrInt(matriceB);
+		objmat.stampMatrInt(matriceA2);
+		objmat.stampMatrInt(matriceB2);
+		objmat.stampMatrInt(matrice7X7ConZero);
+		objmat.stampMatrInt(matrice8X8);
+		objmat.stampMatrInt(matrice1A4X4);
+		objmat.stampMatrInt(matrice2A4X4);
+		objmat.stampMatrInt(matriceBinaria);
+		objmat.stampMatrInt(matricePerRiga);
+		objmat.stampMatrInt(matriceIdentita);
+		objmat.stampMatrInt(matrice7);
+		objmat.stampMatrInt(matriceProdInd);
+		objmat.stampMatrInt(matriceUniPariPerRiga);
+		objmat.stampMatrStr(matrStr);
+		objmat.stampMatrStr(matrStr2);
 		objmat.stampMatrStr(matrStr3);
 		objmat.stampMatrStr(matrStr4);
 
-		// objmat.verificaElemArrInMatr(arr3, matrice1);
-		// objmat.verificaElemArrInMatr(arr1, matrice2);
-		// objmat.verificaElemArrInMatr(arr2, matrice3);
-		// objmat.verificaElemArrInMatr(arr3, matrice4);
+		objmat.verificaElemArrInMatr(arr3, matrice1);
+		objmat.verificaElemArrInMatr(arr1, matrice2);
+		objmat.verificaElemArrInMatr(arr2, matrice3);
+		objmat.verificaElemArrInMatr(arr3, matrice4);
 		//
-		// objmat.contOccStrMatr(matrStr, "Ciao");
-		// objmat.contOccCharMatr(matrStr2, 'o');
-		// System.out.println();
-		// objmat.confrontoPariDispari(matrice1);
-		// objmat.confrontoPariDispari(matrice2);
-		// objmat.confrontoPariDispari(matrice3);
-		// objmat.confrontoPariDispari(matrice4);
+		objmat.contOccStrMatr(matrStr, "Ciao");
+		objmat.contOccCharMatr(matrStr2, 'o');
+		System.out.println();
+		objmat.confrontoPariDispari(matrice1);
+		objmat.confrontoPariDispari(matrice2);
+		objmat.confrontoPariDispari(matrice3);
+		objmat.confrontoPariDispari(matrice4);
 
 		/*
 		 * ArrayMethods objnum = new ArrayMethods(); objnum.rappCoppieNum(100,5);
@@ -233,46 +233,46 @@ public class Main {
 		 * objnum.rappCoppieNum(1000,10);
 		 */
 
-		// objmat.stampMatrInt(matrice6);
-		// objmat.tavolaPitagora(matricePitagora);
-		// objmat.verificaElemArrInMatr(arr4, matrice5);
-		// objmat.verificaElemMatr9x9(matrice5, 59);
-		// objmat.verificaElemMatr9x9(matrice5, 259);
-		// objmat.contZeroMatr(matrice6);
-		// objmat.trovaMaxSumRowCol(matrice1);
-		// objmat.verificaIntervalloCelle(matrice1, 0, 300);
-		// objmat.creaDiagonaleMatrice();
-		// System.out.println(objmat.verificaScacchiera(matriceScacchiera));
-		// System.out.println(objmat.verificaScacchieraInvertita(matriceScacchieraInvertita));
-		// System.out.println("- Le somme delle diagonali si equivalgono? " + "'"
-		// + objmat.sommeDiagonaliUguali(matriceDiagonaliUguali) + "'");
-		// System.out.println("- La matrice è 'palindroma'? " +
-		// objmat.verificaMatrPalindroma(matricePalindroma));
-		// System.out.println("- Questa matrice è composta prevalentemente da '0'? "
-		// + objmat.verificaPrevalenzaZero(matrice7X7ConZero));
-		// objmat.calcolaMaxRowElem(matrice6X6);
-		// objmat.trovaCordMinInt(matrice8X8);
-		// objmat.calcolaProdottoSottoDiagPrin(matrice8X8);
-		// objmat.sommaMatr4X4(matrice1A4X4, matrice2A4X4);
-		// objmat.calcoloMatrBin(matriceBinaria);
-		// String result = objmat.confrontaSommeDiagonale(matrice5X5);
-		// System.out.println(result);
-		// System.out.println("- I bordi sono uguali? '" +
-		// objmat.verificaStessoValoreBordi(matriceBordi1) + "'");
-		// System.out.println("- La matrice rispetta la CONDIZIONE? '" +
-		// objmat.verificaMatricePerRiga(matricePerRiga) + "'");
-		// System.out.println("- E' una matrice identità? '" +
-		// objmat.verificaIsMatrIdentita(matriceIdentita) + "'");
-		// System.out.println("- La matrice rispetta la proprietà data? '" +
-		// objmat.verificaCellaNonMagg(matrice7) + "'");
-		// System.out.println("- La matrice rispetta la condizione? '" +
-		// objmat.verificaProdIndMatr(matriceProdInd) + "'");
-		// System.out.println("- La matrice è corretta? '" +
-		// objmat.verificaUniPariPerRiga(matriceUniPariPerRiga) + "'");
-		// System.out.println(objmat.sommaDueMatrici(matriceA, matriceB));
-		// System.out.println(objmat.prodIndexPiuSumRowMatr(matriceA2));
-		// System.out.println(objmat.creaMatriceSpeciale(matriceA2, matriceB2));
-		// objmat.creaMatriceRandomSpeciale(matriceA2Bis, matriceB2Bis);
+		objmat.stampMatrInt(matrice6);
+		objmat.tavolaPitagora(matricePitagora);
+		objmat.verificaElemArrInMatr(arr4, matrice5);
+		objmat.verificaElemMatr9x9(matrice5, 59);
+		objmat.verificaElemMatr9x9(matrice5, 259);
+		objmat.contZeroMatr(matrice6);
+		objmat.trovaMaxSumRowCol(matrice1);
+		objmat.verificaIntervalloCelle(matrice1, 0, 300);
+		objmat.creaDiagonaleMatrice();
+		System.out.println(objmat.verificaScacchiera(matriceScacchiera));
+		System.out.println(objmat.verificaScacchieraInvertita(matriceScacchieraInvertita));
+		System.out.println("- Le somme delle diagonali si equivalgono? " + "'"
+				+ objmat.sommeDiagonaliUguali(matriceDiagonaliUguali) + "'");
+		System.out.println("- La matrice è 'palindroma'? " +
+				objmat.verificaMatrPalindroma(matricePalindroma));
+		System.out.println("- Questa matrice è composta prevalentemente da '0'? "
+				+ objmat.verificaPrevalenzaZero(matrice7X7ConZero));
+		objmat.calcolaMaxRowElem(matrice6X6);
+		objmat.trovaCordMinInt(matrice8X8);
+		objmat.calcolaProdottoSottoDiagPrin(matrice8X8);
+		objmat.sommaMatr4X4(matrice1A4X4, matrice2A4X4);
+		objmat.calcoloMatrBin(matriceBinaria);
+		String result = objmat.confrontaSommeDiagonale(matrice5X5);
+		System.out.println(result);
+		System.out.println("- I bordi sono uguali? '" +
+				objmat.verificaStessoValoreBordi(matriceBordi1) + "'");
+		System.out.println("- La matrice rispetta la CONDIZIONE? '" +
+				objmat.verificaMatricePerRiga(matricePerRiga) + "'");
+		System.out.println("- E' una matrice identità? '" +
+				objmat.verificaIsMatrIdentita(matriceIdentita) + "'");
+		System.out.println("- La matrice rispetta la proprietà data? '" +
+				objmat.verificaCellaNonMagg(matrice7) + "'");
+		System.out.println("- La matrice rispetta la condizione? '" +
+				objmat.verificaProdIndMatr(matriceProdInd) + "'");
+		System.out.println("- La matrice è corretta? '" +
+				objmat.verificaUniPariPerRiga(matriceUniPariPerRiga) + "'");
+		System.out.println(objmat.sommaDueMatrici(matriceA, matriceB));
+		System.out.println(objmat.prodIndexPiuSumRowMatr(matriceA2));
+		System.out.println(objmat.creaMatriceSpeciale(matriceA2, matriceB2));
+		objmat.creaMatriceRandomSpeciale(matriceA2Bis, matriceB2Bis);
 		System.out.println(objmat.stampaOccCharStr(matrStr3, matrStr4, 'a'));
 	}
 
